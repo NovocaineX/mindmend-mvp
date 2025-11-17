@@ -130,8 +130,13 @@ User data stays private.
 
 ## 👥 Team
 
-- **Aadarsh** – Core Developer & Architect  
-- Additional teammates (if required for submission)  
+**Aadarsh** – Core Developer & Architect  
+
+**Shaurya** - Project Manager
+
+**Ankur** - Fund Raiser
+
+**Subodh** - Designer
 
 ---
 
