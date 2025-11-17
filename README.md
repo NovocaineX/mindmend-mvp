@@ -1,3 +1,155 @@
+# MindMend – AI Voice Companion (MVP)
+
+MindMend is a voice-first AI companion designed to support emotional wellness through natural, conversational interaction.  
+It listens to your voice, detects mood, responds with warmth, and stores encrypted memory locally — creating a private and personal companion experience.
+
+This is the MVP build created for academic demonstration.
+
+---
+
+## 🚀 Features (MVP)
+
+### 🎤 Voice Input
+- Uses browser SpeechRecognition API  
+- Captures natural speech  
+- Converts voice → text instantly  
+
+### 🧠 Encrypted Local Memory
+- Stores last interactions  
+- Saved using AES encryption  
+- 100% offline & private  
+
+### 😊 Mood Detection
+Detects emotional states:
+- happy  
+- sad  
+- angry  
+- neutral  
+
+Responses change based on emotion.
+
+### 🗣 Voice Output
+- Uses browser Speech Synthesis  
+- Gives warm, friendly, conversational replies  
+
+### 🎨 Premium UI
+- Gradient hero section  
+- Glass/blur card layout  
+- Modern typography  
+- Fully centered and responsive pages  
+
+---
+
+## 📂 Project Structure
+mindmend/
+├── src/
+│ ├── pages/
+│ │ ├── Home.jsx
+│ │ └── Demo.jsx
+│ ├── components/
+│ │ ├── VoiceChat.jsx
+│ │ ├── MoodBadge.jsx
+│ │ └── MemoryPanel.jsx
+│ ├── services/
+│ │ ├── storage.js
+│ │ └── (api files for future upgrades)
+│ ├── App.jsx
+│ └── main.jsx
+└── package.json
+
+
+---
+
+## 🛠 Tech Stack
+
+- Vite + React  
+- JavaScript (ES6+)  
+- SpeechRecognition API  
+- SpeechSynthesis API  
+- CryptoJS (AES Encryption)  
+- React Router  
+
+---
+
+## 📦 Installation & Setup
+
+### 1️⃣ Clone the repository
+git clone https://github.com/NovocaineX/mindmend-mvp.git
+
+### 2️⃣ Install dependencies
+npm install
+
+
+### 3️⃣ Run development server
+
+npm run dev
+
+
+### 4️⃣ Open in browser
+http://localhost:5173/
+
+---
+
+## 🧩 How It Works (MVP Logic)
+
+### VoiceChat Flow:
+1. User clicks **Start Talking**  
+2. SpeechRecognition listens → converts to text  
+3. Mood is detected from emotional words  
+4. MindMend generates a supportive emotional response  
+5. Response is spoken aloud  
+6. Interaction is saved (encrypted)  
+
+### Local Memory:
+- Encrypted with AES  
+- Stored in browser localStorage  
+- Stays entirely on user’s device  
+
+---
+
+## 🔒 Privacy
+
+MindMend MVP is **100% offline** and stores all data locally with encryption.  
+No external servers.  
+No cloud dependencies.  
+User data stays private.
+
+---
+
+## 🎯 Future Scope
+
+- AI conversational engine (Gemini/OpenAI)  
+- Custom character personalities  
+- More realistic TTS  
+- Mood timeline analytics  
+- Journaling mode  
+- Mobile app version  
+- Premium versions (MindMend Plus / MindMend Ascend)  
+
+---
+
+## 👥 Team
+
+- **Aadarsh** – Core Developer & Architect  
+- Additional teammates (if required for submission)  
+
+---
+
+## 📄 License
+
+This project is for academic use and demonstration purposes.
+
+---
+
+## 💜 MindMend – Always Here With You.
+
+
+
+
+
+
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
